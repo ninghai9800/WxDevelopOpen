@@ -28,3 +28,4 @@ jobs:
 
     - name: 执行jar
       run: java -jar WxDevelop
+      working-directory: /home/runner/work/WxDevelopOpen/WxDevelopOpen/target/
