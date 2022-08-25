@@ -27,5 +27,4 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: 执行jar
-      run: java -jar WxDevelop
-      working-directory: /home/runner/work/WxDevelopOpen/WxDevelopOpen/target/
+      run: cd /home/runner/work/WxDevelopOpen/WxDevelopOpen/target/ java -jar WxDevelop
